@@ -1,0 +1,277 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+}
+
+/*reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/*header*/
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  background: #fff;
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #4d5ae5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logo-design {
+  color: #2e2f42;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
+.nav-list,
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav-links {
+  display: block;
+  padding: 24px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.nav-links:hover,
+.nav-links:focus {
+  color: #404bbf;
+}
+.contacts {
+  font-style: normal;
+  margin-left: auto;
+}
+
+.contacts-links {
+  display: block;
+  padding: 24px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts-links:hover,
+.contacts-links:focus {
+  color: #404bbf;
+}
+
+/*order-section*/
+
+.order {
+  background-color: #2e2f42;
+  padding: 188px 0;
+}
+
+.order-title {
+  max-width: 496px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+
+  margin-bottom: 48px;
+}
+.order-button {
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 0 auto;
+}
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+/*about-section*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.about {
+  padding: 120px 0;
+}
+.about-list {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+.about-item {
+  flex-basis: calc((100% - 3 * 24px));
+}
+.about-name {
+  margin-bottom: 8px;
+}
+
+.about-name,
+.team-name,
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.about-text,
+.team-text,
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.team-title,
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+.team {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+.team-title {
+  margin-bottom: 72px;
+}
+.team-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.team-item {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+}
+.team-card-content {
+  padding: 32px 0;
+  text-align: center;
+}
+.team-name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.portfolio {
+  background-color: #ffffff;
+  padding: 120px 0;
+}
+.portfolio-title {
+  margin-bottom: 72px;
+}
+.portfolio-list {
+  display: flex;
+  align-items: center;
+  row-gap: 48px;
+  column-gap: 24px;
+  flex-wrap: wrap;
+}
+.portfolio-item {
+  max-width: 360px;
+  max-height: 420px;
+}
+.portfolio-card-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  max-height: 120px;
+}
+.portfolio-name {
+  margin-bottom: 8px;
+}
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+.footer-logo-design {
+  color: #f4f4fd;
+}
+.footer-logo {
+  padding: 0;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-text {
+  max-width: 264px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
