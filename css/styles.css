@@ -373,6 +373,11 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+.footer-content {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
 .footer-logo-design {
   color: #f4f4fd;
 }
@@ -387,4 +392,33 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.social-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-social-link-list {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 16px;
+}
+.footer-social-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  padding: 8px;
+}
+.footer-social-icon {
+  fill: #f4f4fd;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #31d0aa;
 }
